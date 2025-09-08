@@ -25,6 +25,11 @@
   <img alt="Java" src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 
+  <!-- Extras divertidos -->
+  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+
 </div>
 
 ---
@@ -35,7 +40,7 @@
 
   <!-- Usuário configurado: danieltomaz -->
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img alt="Top Langs" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danieltomaz&layout=compact&langs_count=6&theme=dracula&hide_border=true" />
+    <img alt="Top Langs" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danieltomaz&layout=compact&langs_count=6&theme=tokyonight&hide_border=true" />
   </a>
 
 </div>
