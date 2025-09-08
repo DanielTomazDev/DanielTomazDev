@@ -47,6 +47,17 @@
 
 ---
 
+### ⚡ Estatísticas
+
+<div align="center">
+
+  <img height="165" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=danieltomaz&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="165" alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=danieltomaz&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
 ### 🐍 A minhoca comendo meus commits (delícia de contribuição)
 
 <div align="center">
