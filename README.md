@@ -33,9 +33,9 @@
 
 <div align="center">
 
-  <!-- Substitua USERNAME pelo seu usuário do GitHub -->
+  <!-- Usuário configurado: danieltomaz -->
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img alt="Top Langs" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&langs_count=6&theme=dracula&hide_border=true" />
+    <img alt="Top Langs" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danieltomaz&layout=compact&langs_count=6&theme=dracula&hide_border=true" />
   </a>
 
 </div>
@@ -47,8 +47,7 @@
 <div align="center">
 
   <!-- O workflow gera o SVG abaixo no branch output -->
-  <!-- Substitua USERNAME pelo seu usuário do GitHub -->
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/USERNAME/USERNAME/output/snake.svg" />
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/danieltomaz/danieltomaz/output/snake.svg" />
 
 </div>
 
@@ -56,7 +55,7 @@
 
 ### 💡 Dica rápida
 
-- Para funcionar: crie um repositório chamado `USERNAME/USERNAME`, cole este README lá e ative o workflow de snake no GitHub Actions. Troque `USERNAME` pelo seu usuário.
+- Para funcionar: crie um repositório chamado `danieltomaz/danieltomaz`, cole este README lá e ative o workflow de snake no GitHub Actions.
 - Quer outra vibe? Troque o GIF por qualquer outro link que você curtir.
 
 ## Olá eu sou o Daniel Tomaz 👾
