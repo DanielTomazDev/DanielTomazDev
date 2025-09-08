@@ -1,77 +1,16 @@
-(cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF'
-diff --git a/README.md b/README.md
---- a/README.md
-+++ b/README.md
-@@ -1,4 +1,81 @@
--## Olá eu sou o Daniel Tomaz 👾
--
--- 🔭 Hoje eu trabalho com Front-end
--- 🌱 Estudando PHP e Back-end
-+<div align="center">
-+
-+  <h2>Bem-vindo(a) ao meu cantinho dev! 🧑‍💻✨</h2>
-+
-+  <!-- GIF: Personagem aleatório da Disney programando -->
-+  <img src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" width="420" alt="Disney dev coding at a computer" />
-+
-+  <p>
-+    Café na veia, ideias malucas e muito código. Bora construir algo divertido! ☕🚀
-+  </p>
-+
-+</div>
-+
-+---
-+
-+### 🔧 Tecnologias que curto usar
-+
-+<div align="center">
-+
-+  <!-- Badges principais -->
-+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-+  <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-+  <img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-+  <img alt="Java" src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
-+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-+
-+  <!-- Extras divertidos -->
-+  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-+  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-+
-+</div>
-+
-+---
-+
-+### 📊 Minhas linguagens mais usadas
-+
-+<div align="center">
-+
-+  <!-- Usuário configurado: danieltomaz -->
-+  <a href="https://github.com/anuraghazra/github-readme-stats">
-+    <img alt="Top Langs" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danieltomaz&layout=compact&langs_count=6&theme=tokyonight&hide_border=true" />
-+  </a>
-+
-+</div>
-+
-+---
-+
-+### ⚡ Estatísticas
-+
-+<div align="center">
-+
-+  <img height="165" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=danieltomaz&show_icons=true&theme=tokyonight&hide_border=true" />
-+  <img height="165" alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=danieltomaz&theme=tokyonight&hide_border=true" />
-+
-+</div>
-+
-+---
-+
-+### 🐍 A minhoca comendo meus commits (delícia de contribuição)
-+
-+<div align="center">
-+
-+  <!-- O workflow gera o SVG abaixo no branch output -->
-+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/danieltomaz/danieltomaz/output/snake.svg" />
-+
-+</div>
+
+<h1 align="center">Bem-vindo(a) ao meu cantinho dev! 🧑‍💻✨</h1>
+
+  <img src="https://i.pinimg.com/originals/90/70/32/9070324cdfc07c68d60eed0c39e77573.gif" />
+  
+
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Rafa-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+  <img align="center" alt="Rafa-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Rafa-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <img align="center" alt="Rafa-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
+</div>
