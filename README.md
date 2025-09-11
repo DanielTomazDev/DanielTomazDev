@@ -1,10 +1,9 @@
 
-<h1 align="center">Bem-vindo(a) ao meu cantinho dev! 🧑‍💻✨</h1>
+<h1 align="center">Meu código não é só programação: é construção de pontes entre problemas e soluções. Bem-vindo ao meu mundo dev.</h1>
 
   <img src="https://i.pinimg.com/originals/90/70/32/9070324cdfc07c68d60eed0c39e77573.gif" />
   
-Ainda não sei muita coisa, mas já faço commits com confiança 😎
-Aceito dicas, memes e pull requests!
+Apaixonado por tecnologia e pelo impacto que um bom software pode causar. Cada commit é um passo para soluções melhores.
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Daniel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
