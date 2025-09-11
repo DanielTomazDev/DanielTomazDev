@@ -104,9 +104,10 @@ const ContactSection: React.FC = () => {
           transition={{ duration: 1 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">
-            ESTABELEÇA CONTATO
+          <h2 className="text-4xl md:text-6xl font-bold gradient-text mb-6" style={{ fontFamily: "'Orbitron', monospace" }}>
+            CONTATO
           </h2>
+          <div className="w-32 h-1 bg-gradient-to-r from-sw-gold to-sw-blue mx-auto mb-6" />
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Pronto para iniciar uma nova missão juntos? A Força nos conectará!
           </p>

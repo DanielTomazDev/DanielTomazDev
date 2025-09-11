@@ -4,10 +4,12 @@ import StarField from './components/StarField';
 import FloatingTech from './components/FloatingTech';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
+import GitHubProjects from './components/GitHubProjects';
 import TechSection from './components/TechSection';
 import ServicesSection from './components/ServicesSection';
-import GitHubProjects from './components/GitHubProjects';
-import SkillsSection from './components/SkillsSection';
+import SoftSkillsSection from './components/SoftSkillsSection';
+import FeedbackSection from './components/FeedbackSection';
+import ExperienceCounter from './components/ExperienceCounter';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
@@ -33,7 +35,9 @@ function App() {
         <GitHubProjects />
         <TechSection />
         <ServicesSection />
-        <SkillsSection />
+        <SoftSkillsSection />
+        <FeedbackSection />
+        <ExperienceCounter />
         <ContactSection />
       </main>
       

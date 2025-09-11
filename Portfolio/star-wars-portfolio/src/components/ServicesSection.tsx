@@ -29,28 +29,28 @@ const ServicesSection: React.FC = () => {
   const services: Service[] = [
     {
       id: 'bots',
-      title: 'Bots Inteligentes',
+      title: '🤖 Bots Inteligentes',
       icon: <Bot size={48} />,
-      description: 'Automatização inteligente para Discord, WhatsApp e IA',
+      description: 'Automação inteligente que trabalha 24/7 para você',
       features: [
-        'Discord → automação de comunidades, moderação, música',
-        'WhatsApp → atendentes virtuais, integrações com CRM',
-        'IA → suporte e vendas inteligentes',
+        'Discord (automação, moderação, música)',
+        'WhatsApp (atendentes virtuais, integração CRM)',
+        'IA (suporte e vendas inteligentes)',
         'Integração com APIs externas',
-        'Respostas automatizadas personalizadas'
+        'Respostas personalizadas e contextuais'
       ],
       color: '#00BFFF',
       gradient: 'from-blue-600 to-cyan-600'
     },
     {
       id: 'ecommerce',
-      title: 'Sites e E-commerces',
+      title: '🌐 Sites e E-commerces',
       icon: <Globe size={48} />,
-      description: 'Presença digital profissional que funciona 24/7',
+      description: 'Presença digital que converte visitantes em clientes',
       features: [
         'Landing Pages profissionais',
-        'Lojas virtuais completas (24/7)',
-        'Design responsivo e otimizado',
+        'Lojas virtuais completas',
+        'Design responsivo',
         'SEO e otimização para conversão',
         'Integração com meios de pagamento'
       ],
@@ -59,13 +59,13 @@ const ServicesSection: React.FC = () => {
     },
     {
       id: 'systems',
-      title: 'Sistemas Corporativos',
+      title: '🏢 Sistemas Corporativos',
       icon: <Building size={48} />,
-      description: 'CRMs e ERPs sob medida para sua empresa',
+      description: 'CRMs e ERPs que revolucionam sua gestão',
       features: [
-        'CRM → gestão de contatos, leads e clientes',
-        'ERP → estoque, vendas, finanças',
-        'Soluções sob medida para empresas',
+        'CRM: gestão de contatos, leads, clientes',
+        'ERP: estoque, vendas, finanças',
+        'Soluções sob medida',
         'Relatórios e dashboards inteligentes',
         'Controle de acesso e permissões'
       ],
@@ -74,15 +74,15 @@ const ServicesSection: React.FC = () => {
     },
     {
       id: 'integrations',
-      title: 'Integrações de APIs',
+      title: '🔗 Integrações de APIs',
       icon: <Zap size={48} />,
-      description: 'Conectando sistemas e automatizando processos',
+      description: 'Conectando plataformas e automatizando processos',
       features: [
-        'Conectar diferentes plataformas e sistemas',
-        'Automatizar processos entre serviços',
-        'Centralização de dados em um só lugar',
+        'Conectar plataformas e automatizar processos',
+        'Centralizar dados em um só lugar',
         'Sincronização em tempo real',
-        'Webhooks e notificações automáticas'
+        'Webhooks e notificações automáticas',
+        'APIs personalizadas e documentadas'
       ],
       color: '#9932CC',
       gradient: 'from-purple-600 to-indigo-600'
@@ -129,9 +129,10 @@ const ServicesSection: React.FC = () => {
           transition={{ duration: 1 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">
-            SERVIÇOS CONTRATÁVEIS
+          <h2 className="text-4xl md:text-6xl font-bold gradient-text mb-6" style={{ fontFamily: "'Orbitron', monospace" }}>
+            SERVIÇOS
           </h2>
+          <div className="w-32 h-1 bg-gradient-to-r from-sw-gold to-sw-blue mx-auto mb-6" />
           <p className="text-xl text-gray-300 max-w-4xl mx-auto">
             Soluções elaboradas e acessíveis para freelancers, empreendedores e empresas
           </p>
