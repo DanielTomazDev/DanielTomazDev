@@ -49,6 +49,22 @@
     animation-delay: 2s;
   }
   
+  .star-bright {
+    background: radial-gradient(circle, #FFD700 0%, #FFFFFF 50%, transparent 100%);
+    animation: twinkle-bright 3s linear infinite;
+  }
+  
+  @keyframes twinkle-bright {
+    0%, 100% { 
+      opacity: 0.3;
+      transform: scale(1);
+    }
+    50% { 
+      opacity: 1;
+      transform: scale(1.2);
+    }
+  }
+  
   .gradient-text {
     background: linear-gradient(45deg, #FFD700, #00BFFF);
     -webkit-background-clip: text;
@@ -165,5 +181,64 @@
     color: #000;
     background: #FFD700;
     box-shadow: 0 0 20px #FFD700;
+  }
+
+  /* Floating Tech Icons */
+  .floating-tech-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .floating-tech-icon {
+    position: absolute;
+    pointer-events: auto;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .tech-icon-inner {
+    width: 60px;
+    height: 60px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+  }
+
+  .tech-tooltip {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.9);
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #FFD700;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    z-index: 10;
+  }
+
+  .floating-tech-icon:hover .tech-tooltip {
+    opacity: 1;
+    bottom: -60px;
+  }
+
+  /* Responsivo - esconder em telas pequenas */
+  @media (max-width: 768px) {
+    .floating-tech-container {
+      display: none;
+    }
   }
 }

@@ -1,11 +1,12 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import StarField from './components/StarField';
+import FloatingTech from './components/FloatingTech';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import TechSection from './components/TechSection';
 import ServicesSection from './components/ServicesSection';
-import ProjectsSection from './components/ProjectsSection';
+import GitHubProjects from './components/GitHubProjects';
 import SkillsSection from './components/SkillsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
@@ -15,6 +16,9 @@ function App() {
     <div className="App bg-sw-dark text-white overflow-x-hidden">
       {/* Star Field Background */}
       <StarField />
+      
+      {/* Floating Tech Icons */}
+      <FloatingTech />
       
       {/* Navigation */}
       <Navbar />
@@ -26,9 +30,9 @@ function App() {
         </section>
         
         <AboutSection />
+        <GitHubProjects />
         <TechSection />
         <ServicesSection />
-        <ProjectsSection />
         <SkillsSection />
         <ContactSection />
       </main>

@@ -16,14 +16,14 @@ const StarField: React.FC = () => {
   useEffect(() => {
     const generateStars = () => {
       const newStars: Star[] = [];
-      for (let i = 0; i < 150; i++) {
+      for (let i = 0; i < 300; i++) {
         newStars.push({
           id: i,
           x: Math.random() * window.innerWidth,
           y: Math.random() * window.innerHeight,
-          size: Math.random() * 3 + 1,
-          opacity: Math.random() * 0.8 + 0.2,
-          speed: Math.random() * 0.5 + 0.1,
+          size: Math.random() * 4 + 0.5,
+          opacity: Math.random() * 1 + 0.1,
+          speed: Math.random() * 1 + 0.1,
         });
       }
       setStars(newStars);
@@ -68,14 +68,15 @@ const StarField: React.FC = () => {
       {stars.map(star => (
         <div
           key={star.id}
-          className="star"
+          className={`star ${star.size > 2 ? 'star-bright' : ''}`}
           style={{
             left: `${star.x}px`,
             top: `${star.y}px`,
             width: `${star.size}px`,
             height: `${star.size}px`,
             opacity: star.opacity,
-            animationDelay: `${star.id * 0.1}s`,
+            animationDelay: `${star.id * 0.05}s`,
+            boxShadow: star.size > 3 ? `0 0 ${star.size * 2}px rgba(255, 255, 255, 0.8)` : 'none',
           }}
         />
       ))}
